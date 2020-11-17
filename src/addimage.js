@@ -5,10 +5,8 @@ function addImage() {
   img.alt = "dp";
   img.width = 300;
   img.src = DP;
-  console.log(document);
 
   const body = document.querySelector("#body");
-  console.log(body);
   body.appendChild(img);
 }
 export default addImage;
