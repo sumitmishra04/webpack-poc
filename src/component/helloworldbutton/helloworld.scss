@@ -1,0 +1,15 @@
+$fs: 20px;
+$bcb: green;
+$bfc: white;
+
+.hello-world-button {
+  font-style: $fs;
+  background-color: $bcb;
+  color: $bfc;
+  padding: 7px 15px;
+  outline: none;
+}
+.hello-world-text {
+  color: $bcb;
+  font-weight: bold;
+}
